@@ -6,6 +6,7 @@ import (
 )
 
 type User struct {
+	// AUTO_INCREMENT 开始值是1
 	Id       int32      `json:"id" gorm:"primary_key;AUTO_INCREMENT;comment:'id'"`
 	Uuid     string     `json:"uuid" gorm:"type:varchar(150);not null;unique_index:idx_uuid;comment:'uuid'"`
 	Username string     `json:"username" form:"username" binding:"required" gorm:"unique;not null; comment:'用户名'"`
