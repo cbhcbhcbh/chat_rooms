@@ -4,11 +4,13 @@ go 1.16
 
 require (
 	github.com/gin-gonic/gin v1.7.7
+	github.com/gogo/protobuf v1.3.2
 	github.com/google/uuid v1.3.0
-	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/gorilla/websocket v1.5.0
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/pkg/errors v0.8.1
 	github.com/spf13/viper v1.10.1
+	github.com/wxnacy/wgo v1.0.4
 	go.uber.org/zap v1.17.0
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
